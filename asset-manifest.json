@@ -1,16 +1,16 @@
 {
   "files": {
     "main.css": "/kochiportal/static/css/main.20681fcd.css",
-    "main.js": "/kochiportal/static/js/main.e6758ca9.js",
+    "main.js": "/kochiportal/static/js/main.71e8de48.js",
     "static/js/453.8fb1a291.chunk.js": "/kochiportal/static/js/453.8fb1a291.chunk.js",
     "static/media/logo.svg": "/kochiportal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
     "index.html": "/kochiportal/index.html",
     "main.20681fcd.css.map": "/kochiportal/static/css/main.20681fcd.css.map",
-    "main.e6758ca9.js.map": "/kochiportal/static/js/main.e6758ca9.js.map",
+    "main.71e8de48.js.map": "/kochiportal/static/js/main.71e8de48.js.map",
     "453.8fb1a291.chunk.js.map": "/kochiportal/static/js/453.8fb1a291.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.20681fcd.css",
-    "static/js/main.e6758ca9.js"
+    "static/js/main.71e8de48.js"
   ]
 }
