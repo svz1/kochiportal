@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const openLink = () => {    
       window.open("https://soti.sharepoint.com/:u:/s/AWStoAzureMigration/EfzuzoSKY7hOrwAq-x6Hjf4BgyjfUR5pDYmk6rtM1B4jlw?e=i6dUFQ");
@@ -48,7 +49,15 @@ document.body.removeChild(tempTextarea);
   document.getElementById("script2").innerText ="https://soti.sharepoint.com/:u:/s/AWStoAzureMigration/EfzuzoSKY7hOrwAq-x6Hjf4BgyjfUR5pDYmk6rtM1B4jlw?e=i6dUFQ"
   };
   return (
+    
     <div>
+       <div className='navs'>
+        <nav>
+      <h1>AWS to Azure Migration Helper</h1>
+      <p>Crafted by savio.sabu@soti.net</p>
+      </nav>
+
+      </div>
       
       <form action="">
       <label htmlFor="textinput">Enter the Azure and AWS ID</label>
@@ -108,7 +117,8 @@ document.body.removeChild(tempTextarea);
 
 
 
-<a class="sticky-button" href="downloads.html">Powershell Links</a>
+<Link className="sticky-button" to="/ctrFormatter">Switch to Case Details Formatter</Link>
+
     </div>
 
     </div>
