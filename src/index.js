@@ -3,28 +3,21 @@ import ReactDOM from 'react-dom/client';
 import './index.css';
 import App from './App';
 import reportWebVitals from './reportWebVitals';
-import {
-  createBrowserRouter,
-  RouterProvider,
-} from "react-router-dom";
+import { HashRouter as Router, Routes, Route } from "react-router-dom";  // Use HashRouter
 
 import CtrFormater from './components/ctrFormater';
 import Inputform from './components/inputform';
 
-const router =  createBrowserRouter([
-  {
-    path: "/",
-    element: <Inputform />,
-    },
-    { path: "/ctrFormatter",
-      element: <CtrFormater />,
-    }
-]) ;
-
+// Define routes inside HashRouter
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
- <RouterProvider router={router} />
+    <Router>
+      <Routes>
+        <Route path="/" element={<Inputform />} />
+        <Route path="/ctrFormatter" element={<CtrFormater />} />
+      </Routes>
+    </Router>
   </React.StrictMode>
 );
 
