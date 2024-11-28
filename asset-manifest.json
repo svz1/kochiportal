@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/svz1/kochiportal/static/css/main.20681fcd.css",
+    "main.js": "/svz1/kochiportal/static/js/main.c3d895d0.js",
+    "static/js/453.8fb1a291.chunk.js": "/svz1/kochiportal/static/js/453.8fb1a291.chunk.js",
+    "static/media/logo.svg": "/svz1/kochiportal/static/media/logo.6ce24c58023cc2f8fd88fe9d219db6c6.svg",
+    "index.html": "/svz1/kochiportal/index.html",
+    "main.20681fcd.css.map": "/svz1/kochiportal/static/css/main.20681fcd.css.map",
+    "main.c3d895d0.js.map": "/svz1/kochiportal/static/js/main.c3d895d0.js.map",
+    "453.8fb1a291.chunk.js.map": "/svz1/kochiportal/static/js/453.8fb1a291.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.20681fcd.css",
+    "static/js/main.c3d895d0.js"
+  ]
+}
