@@ -7,6 +7,7 @@ import { HashRouter as Router, Routes, Route } from "react-router-dom";  // Use 
 
 import CtrFormater from './components/ctrFormater';
 import Inputform from './components/inputform';
+import Header from './components/header';
 
 // Define routes inside HashRouter
 const root = ReactDOM.createRoot(document.getElementById('root'));
@@ -15,9 +16,10 @@ root.render(
     <Router>
       <Routes>
         <Route path="/" element={<Inputform />} />
-        <Route path="/ctrFormatter" element={<CtrFormater />} />
+         <Route path="/ctrFormatter" element={<CtrFormater />} /> 
       </Routes>
-    </Router>
+    </Router> 
+ 
   </React.StrictMode>
 );
 

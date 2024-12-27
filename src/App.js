@@ -3,16 +3,13 @@ import './App.css';
 import Navbar from './components/navbar';
 import Inputform from './components/inputform';
 import CtrFormater from './components/ctrFormater';
+<header></header>
 
 function App() {
   return (
    <div>
-
-    < Navbar />
-    <Inputform></Inputform>  
-     
-
-    <CtrFormater />
+<header></header>
+   
    </div>
   );
 }
